@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3707A4D362B09B6F9A2507B4 /* Pods_paytm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48CE30DAA8C6F89199E7F8C3 /* Pods_paytm.framework */; };
+		8AB38334343BF9F3C1E99DF1 /* Pods_paytmIntegration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9BF98C8FE06C511545D4A06 /* Pods_paytmIntegration.framework */; };
 		CF1B369F2730F8EA0001380F /* paytm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF1B36962730F8EA0001380F /* paytm.framework */; };
 		CF1B36A42730F8EA0001380F /* paytmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1B36A32730F8EA0001380F /* paytmTests.swift */; };
 		CF1B36A52730F8EA0001380F /* paytm.h in Headers */ = {isa = PBXBuildFile; fileRef = CF1B36992730F8EA0001380F /* paytm.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -16,10 +18,11 @@
 		CF1B36BC2730F90B0001380F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF1B36BA2730F90B0001380F /* Main.storyboard */; };
 		CF1B36BE2730F90E0001380F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF1B36BD2730F90E0001380F /* Assets.xcassets */; };
 		CF1B36C12730F90E0001380F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF1B36BF2730F90E0001380F /* LaunchScreen.storyboard */; };
-		CF1B36C82730F98F0001380F /* AppInvokeSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF1B36C72730F98F0001380F /* AppInvokeSDK.xcframework */; };
-		CF1B36C92730F98F0001380F /* AppInvokeSDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CF1B36C72730F98F0001380F /* AppInvokeSDK.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		CF1B36CB2730F9980001380F /* AppInvokeSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF1B36C72730F98F0001380F /* AppInvokeSDK.xcframework */; };
-		CF1B36CC2730F9980001380F /* AppInvokeSDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CF1B36C72730F98F0001380F /* AppInvokeSDK.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CF1B36CE273141E70001380F /* AppInvokeSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF1B36C72730F98F0001380F /* AppInvokeSDK.xcframework */; };
+		CF1B36CF273141E70001380F /* AppInvokeSDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CF1B36C72730F98F0001380F /* AppInvokeSDK.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CF1B36D1273141F00001380F /* AppInvokeSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF1B36C72730F98F0001380F /* AppInvokeSDK.xcframework */; };
+		CF1B36D2273141F00001380F /* AppInvokeSDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CF1B36C72730F98F0001380F /* AppInvokeSDK.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EDB79FFBAAA3303FDAB0C95A /* Pods_paytm_paytmTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B14FF4ADECAB17A2FBEFCB5 /* Pods_paytm_paytmTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,24 +36,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		CF1B36CA2730F98F0001380F /* Embed Frameworks */ = {
+		CF1B36D0273141E70001380F /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				CF1B36C92730F98F0001380F /* AppInvokeSDK.xcframework in Embed Frameworks */,
+				CF1B36CF273141E70001380F /* AppInvokeSDK.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CF1B36CD2730F9980001380F /* Embed Frameworks */ = {
+		CF1B36D3273141F00001380F /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				CF1B36CC2730F9980001380F /* AppInvokeSDK.xcframework in Embed Frameworks */,
+				CF1B36D2273141F00001380F /* AppInvokeSDK.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -58,6 +61,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2B14FF4ADECAB17A2FBEFCB5 /* Pods_paytm_paytmTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_paytm_paytmTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		48CE30DAA8C6F89199E7F8C3 /* Pods_paytm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_paytm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		51B87696C44B8F77B6584CD4 /* Pods-paytmIntegration.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-paytmIntegration.release.xcconfig"; path = "Target Support Files/Pods-paytmIntegration/Pods-paytmIntegration.release.xcconfig"; sourceTree = "<group>"; };
+		9E46B217F25949EF5DD921AA /* Pods-paytm-paytmTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-paytm-paytmTests.release.xcconfig"; path = "Target Support Files/Pods-paytm-paytmTests/Pods-paytm-paytmTests.release.xcconfig"; sourceTree = "<group>"; };
+		A15DE6CABE98DCE2C8C196BE /* Pods-paytm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-paytm.release.xcconfig"; path = "Target Support Files/Pods-paytm/Pods-paytm.release.xcconfig"; sourceTree = "<group>"; };
+		A9BF98C8FE06C511545D4A06 /* Pods_paytmIntegration.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_paytmIntegration.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA0D031ACF21D4129A821C2C /* Pods-paytmIntegration.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-paytmIntegration.debug.xcconfig"; path = "Target Support Files/Pods-paytmIntegration/Pods-paytmIntegration.debug.xcconfig"; sourceTree = "<group>"; };
 		CF1B36962730F8EA0001380F /* paytm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = paytm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF1B36992730F8EA0001380F /* paytm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = paytm.h; sourceTree = "<group>"; };
 		CF1B369E2730F8EA0001380F /* paytmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = paytmTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -71,6 +81,8 @@
 		CF1B36C02730F90E0001380F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CF1B36C22730F90E0001380F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CF1B36C72730F98F0001380F /* AppInvokeSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AppInvokeSDK.xcframework; sourceTree = "<group>"; };
+		DDCD5166A7B7FB14CCA0EDE1 /* Pods-paytm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-paytm.debug.xcconfig"; path = "Target Support Files/Pods-paytm/Pods-paytm.debug.xcconfig"; sourceTree = "<group>"; };
+		E82D706D53022451975409EE /* Pods-paytm-paytmTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-paytm-paytmTests.debug.xcconfig"; path = "Target Support Files/Pods-paytm-paytmTests/Pods-paytm-paytmTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +90,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF1B36CB2730F9980001380F /* AppInvokeSDK.xcframework in Frameworks */,
+				CF1B36CE273141E70001380F /* AppInvokeSDK.xcframework in Frameworks */,
+				3707A4D362B09B6F9A2507B4 /* Pods_paytm.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +100,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF1B369F2730F8EA0001380F /* paytm.framework in Frameworks */,
+				EDB79FFBAAA3303FDAB0C95A /* Pods_paytm_paytmTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,13 +108,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF1B36C82730F98F0001380F /* AppInvokeSDK.xcframework in Frameworks */,
+				CF1B36D1273141F00001380F /* AppInvokeSDK.xcframework in Frameworks */,
+				8AB38334343BF9F3C1E99DF1 /* Pods_paytmIntegration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A94C398076DB8E23ACBCEC8C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DDCD5166A7B7FB14CCA0EDE1 /* Pods-paytm.debug.xcconfig */,
+				A15DE6CABE98DCE2C8C196BE /* Pods-paytm.release.xcconfig */,
+				E82D706D53022451975409EE /* Pods-paytm-paytmTests.debug.xcconfig */,
+				9E46B217F25949EF5DD921AA /* Pods-paytm-paytmTests.release.xcconfig */,
+				BA0D031ACF21D4129A821C2C /* Pods-paytmIntegration.debug.xcconfig */,
+				51B87696C44B8F77B6584CD4 /* Pods-paytmIntegration.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		CF1B368C2730F8EA0001380F = {
 			isa = PBXGroup;
 			children = (
@@ -109,6 +137,7 @@
 				CF1B36B32730F90B0001380F /* paytmIntegration */,
 				CF1B36972730F8EA0001380F /* Products */,
 				CF1B36C62730F98F0001380F /* Frameworks */,
+				A94C398076DB8E23ACBCEC8C /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -156,6 +185,9 @@
 			isa = PBXGroup;
 			children = (
 				CF1B36C72730F98F0001380F /* AppInvokeSDK.xcframework */,
+				48CE30DAA8C6F89199E7F8C3 /* Pods_paytm.framework */,
+				2B14FF4ADECAB17A2FBEFCB5 /* Pods_paytm_paytmTests.framework */,
+				A9BF98C8FE06C511545D4A06 /* Pods_paytmIntegration.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -178,11 +210,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CF1B36A82730F8EA0001380F /* Build configuration list for PBXNativeTarget "paytm" */;
 			buildPhases = (
+				FE1676334A0D6479CE74D822 /* [CP] Check Pods Manifest.lock */,
 				CF1B36912730F8EA0001380F /* Headers */,
 				CF1B36922730F8EA0001380F /* Sources */,
 				CF1B36932730F8EA0001380F /* Frameworks */,
 				CF1B36942730F8EA0001380F /* Resources */,
-				CF1B36CD2730F9980001380F /* Embed Frameworks */,
+				CF1B36D0273141E70001380F /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -197,6 +230,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CF1B36AB2730F8EA0001380F /* Build configuration list for PBXNativeTarget "paytmTests" */;
 			buildPhases = (
+				5A78309F11F7C8CB66AD31CB /* [CP] Check Pods Manifest.lock */,
 				CF1B369A2730F8EA0001380F /* Sources */,
 				CF1B369B2730F8EA0001380F /* Frameworks */,
 				CF1B369C2730F8EA0001380F /* Resources */,
@@ -215,10 +249,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CF1B36C32730F90E0001380F /* Build configuration list for PBXNativeTarget "paytmIntegration" */;
 			buildPhases = (
+				BDAA2439F5740A8CFD8CE1EC /* [CP] Check Pods Manifest.lock */,
 				CF1B36AE2730F90B0001380F /* Sources */,
 				CF1B36AF2730F90B0001380F /* Frameworks */,
 				CF1B36B02730F90B0001380F /* Resources */,
-				CF1B36CA2730F98F0001380F /* Embed Frameworks */,
+				CF1B36D3273141F00001380F /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -296,6 +331,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5A78309F11F7C8CB66AD31CB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-paytm-paytmTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BDAA2439F5740A8CFD8CE1EC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-paytmIntegration-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE1676334A0D6479CE74D822 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-paytm-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CF1B36922730F8EA0001380F /* Sources */ = {
@@ -477,6 +581,7 @@
 		};
 		CF1B36A92730F8EA0001380F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDCD5166A7B7FB14CCA0EDE1 /* Pods-paytm.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -505,6 +610,7 @@
 		};
 		CF1B36AA2730F8EA0001380F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A15DE6CABE98DCE2C8C196BE /* Pods-paytm.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -533,6 +639,7 @@
 		};
 		CF1B36AC2730F8EA0001380F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E82D706D53022451975409EE /* Pods-paytm-paytmTests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -554,6 +661,7 @@
 		};
 		CF1B36AD2730F8EA0001380F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E46B217F25949EF5DD921AA /* Pods-paytm-paytmTests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -575,6 +683,7 @@
 		};
 		CF1B36C42730F90E0001380F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA0D031ACF21D4129A821C2C /* Pods-paytmIntegration.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -603,6 +712,7 @@
 		};
 		CF1B36C52730F90E0001380F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51B87696C44B8F77B6584CD4 /* Pods-paytmIntegration.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

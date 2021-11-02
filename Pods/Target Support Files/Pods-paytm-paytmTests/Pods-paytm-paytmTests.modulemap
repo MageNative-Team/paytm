@@ -1,0 +1,6 @@
+framework module Pods_paytm_paytmTests {
+  umbrella header "Pods-paytm-paytmTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

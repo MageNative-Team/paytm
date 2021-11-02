@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     private let handler = AIHandler()
     
     //TODO: Values required from current project to initiate paytm
-    var custID: String? = nil           //cartId or userId
+    var custID: String? = ""           //cartId or userId
     var merchantID: String = ""
     var orderID: String = ""
     var txnToken = ""
@@ -22,9 +22,9 @@ class ViewController: UIViewController {
     var AIEnvironmentType : AIEnvironment = .staging        // set as default
     var appURL = ""
     var headerKey = ""
-    var storID: String? = nil
+    var storeID: String? = nil
     var paytmResponse = [String:Any]()
-    
+        
     
     //TODO: Required details from main project
     init(userID: String, merchantId: String, orderId: String, token: String, totalVal: String, callbackurl: String, environemntTyp: String, baseUrl: String, headerkey: String){
@@ -48,6 +48,7 @@ class ViewController: UIViewController {
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
