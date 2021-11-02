@@ -1,0 +1,674 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF1B369F2730F8EA0001380F /* paytm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF1B36962730F8EA0001380F /* paytm.framework */; };
+		CF1B36A42730F8EA0001380F /* paytmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1B36A32730F8EA0001380F /* paytmTests.swift */; };
+		CF1B36A52730F8EA0001380F /* paytm.h in Headers */ = {isa = PBXBuildFile; fileRef = CF1B36992730F8EA0001380F /* paytm.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF1B36B52730F90B0001380F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1B36B42730F90B0001380F /* AppDelegate.swift */; };
+		CF1B36B72730F90B0001380F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1B36B62730F90B0001380F /* SceneDelegate.swift */; };
+		CF1B36B92730F90B0001380F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1B36B82730F90B0001380F /* ViewController.swift */; };
+		CF1B36BC2730F90B0001380F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF1B36BA2730F90B0001380F /* Main.storyboard */; };
+		CF1B36BE2730F90E0001380F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF1B36BD2730F90E0001380F /* Assets.xcassets */; };
+		CF1B36C12730F90E0001380F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF1B36BF2730F90E0001380F /* LaunchScreen.storyboard */; };
+		CF1B36C82730F98F0001380F /* AppInvokeSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF1B36C72730F98F0001380F /* AppInvokeSDK.xcframework */; };
+		CF1B36C92730F98F0001380F /* AppInvokeSDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CF1B36C72730F98F0001380F /* AppInvokeSDK.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CF1B36CB2730F9980001380F /* AppInvokeSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF1B36C72730F98F0001380F /* AppInvokeSDK.xcframework */; };
+		CF1B36CC2730F9980001380F /* AppInvokeSDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CF1B36C72730F98F0001380F /* AppInvokeSDK.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF1B36A02730F8EA0001380F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF1B368D2730F8EA0001380F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF1B36952730F8EA0001380F;
+			remoteInfo = paytm;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CF1B36CA2730F98F0001380F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				CF1B36C92730F98F0001380F /* AppInvokeSDK.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF1B36CD2730F9980001380F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				CF1B36CC2730F9980001380F /* AppInvokeSDK.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CF1B36962730F8EA0001380F /* paytm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = paytm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF1B36992730F8EA0001380F /* paytm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = paytm.h; sourceTree = "<group>"; };
+		CF1B369E2730F8EA0001380F /* paytmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = paytmTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF1B36A32730F8EA0001380F /* paytmTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = paytmTests.swift; sourceTree = "<group>"; };
+		CF1B36B22730F90B0001380F /* paytmIntegration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = paytmIntegration.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF1B36B42730F90B0001380F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CF1B36B62730F90B0001380F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CF1B36B82730F90B0001380F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CF1B36BB2730F90B0001380F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF1B36BD2730F90E0001380F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF1B36C02730F90E0001380F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF1B36C22730F90E0001380F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF1B36C72730F98F0001380F /* AppInvokeSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AppInvokeSDK.xcframework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF1B36932730F8EA0001380F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF1B36CB2730F9980001380F /* AppInvokeSDK.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF1B369B2730F8EA0001380F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF1B369F2730F8EA0001380F /* paytm.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF1B36AF2730F90B0001380F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF1B36C82730F98F0001380F /* AppInvokeSDK.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF1B368C2730F8EA0001380F = {
+			isa = PBXGroup;
+			children = (
+				CF1B36982730F8EA0001380F /* paytm */,
+				CF1B36A22730F8EA0001380F /* paytmTests */,
+				CF1B36B32730F90B0001380F /* paytmIntegration */,
+				CF1B36972730F8EA0001380F /* Products */,
+				CF1B36C62730F98F0001380F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CF1B36972730F8EA0001380F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF1B36962730F8EA0001380F /* paytm.framework */,
+				CF1B369E2730F8EA0001380F /* paytmTests.xctest */,
+				CF1B36B22730F90B0001380F /* paytmIntegration.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1B36982730F8EA0001380F /* paytm */ = {
+			isa = PBXGroup;
+			children = (
+				CF1B36992730F8EA0001380F /* paytm.h */,
+			);
+			path = paytm;
+			sourceTree = "<group>";
+		};
+		CF1B36A22730F8EA0001380F /* paytmTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF1B36A32730F8EA0001380F /* paytmTests.swift */,
+			);
+			path = paytmTests;
+			sourceTree = "<group>";
+		};
+		CF1B36B32730F90B0001380F /* paytmIntegration */ = {
+			isa = PBXGroup;
+			children = (
+				CF1B36B42730F90B0001380F /* AppDelegate.swift */,
+				CF1B36B62730F90B0001380F /* SceneDelegate.swift */,
+				CF1B36B82730F90B0001380F /* ViewController.swift */,
+				CF1B36BA2730F90B0001380F /* Main.storyboard */,
+				CF1B36BD2730F90E0001380F /* Assets.xcassets */,
+				CF1B36BF2730F90E0001380F /* LaunchScreen.storyboard */,
+				CF1B36C22730F90E0001380F /* Info.plist */,
+			);
+			path = paytmIntegration;
+			sourceTree = "<group>";
+		};
+		CF1B36C62730F98F0001380F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF1B36C72730F98F0001380F /* AppInvokeSDK.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		CF1B36912730F8EA0001380F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF1B36A52730F8EA0001380F /* paytm.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		CF1B36952730F8EA0001380F /* paytm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF1B36A82730F8EA0001380F /* Build configuration list for PBXNativeTarget "paytm" */;
+			buildPhases = (
+				CF1B36912730F8EA0001380F /* Headers */,
+				CF1B36922730F8EA0001380F /* Sources */,
+				CF1B36932730F8EA0001380F /* Frameworks */,
+				CF1B36942730F8EA0001380F /* Resources */,
+				CF1B36CD2730F9980001380F /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = paytm;
+			productName = paytm;
+			productReference = CF1B36962730F8EA0001380F /* paytm.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CF1B369D2730F8EA0001380F /* paytmTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF1B36AB2730F8EA0001380F /* Build configuration list for PBXNativeTarget "paytmTests" */;
+			buildPhases = (
+				CF1B369A2730F8EA0001380F /* Sources */,
+				CF1B369B2730F8EA0001380F /* Frameworks */,
+				CF1B369C2730F8EA0001380F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF1B36A12730F8EA0001380F /* PBXTargetDependency */,
+			);
+			name = paytmTests;
+			productName = paytmTests;
+			productReference = CF1B369E2730F8EA0001380F /* paytmTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CF1B36B12730F90B0001380F /* paytmIntegration */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF1B36C32730F90E0001380F /* Build configuration list for PBXNativeTarget "paytmIntegration" */;
+			buildPhases = (
+				CF1B36AE2730F90B0001380F /* Sources */,
+				CF1B36AF2730F90B0001380F /* Frameworks */,
+				CF1B36B02730F90B0001380F /* Resources */,
+				CF1B36CA2730F98F0001380F /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = paytmIntegration;
+			productName = paytmIntegration;
+			productReference = CF1B36B22730F90B0001380F /* paytmIntegration.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF1B368D2730F8EA0001380F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					CF1B36952730F8EA0001380F = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					CF1B369D2730F8EA0001380F = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					CF1B36B12730F90B0001380F = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = CF1B36902730F8EA0001380F /* Build configuration list for PBXProject "paytm" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1B368C2730F8EA0001380F;
+			productRefGroup = CF1B36972730F8EA0001380F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF1B36952730F8EA0001380F /* paytm */,
+				CF1B369D2730F8EA0001380F /* paytmTests */,
+				CF1B36B12730F90B0001380F /* paytmIntegration */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF1B36942730F8EA0001380F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF1B369C2730F8EA0001380F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF1B36B02730F90B0001380F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF1B36C12730F90E0001380F /* LaunchScreen.storyboard in Resources */,
+				CF1B36BE2730F90E0001380F /* Assets.xcassets in Resources */,
+				CF1B36BC2730F90B0001380F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF1B36922730F8EA0001380F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF1B369A2730F8EA0001380F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF1B36A42730F8EA0001380F /* paytmTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF1B36AE2730F90B0001380F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF1B36B92730F90B0001380F /* ViewController.swift in Sources */,
+				CF1B36B52730F90B0001380F /* AppDelegate.swift in Sources */,
+				CF1B36B72730F90B0001380F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF1B36A12730F8EA0001380F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF1B36952730F8EA0001380F /* paytm */;
+			targetProxy = CF1B36A02730F8EA0001380F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF1B36BA2730F90B0001380F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF1B36BB2730F90B0001380F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF1B36BF2730F90E0001380F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF1B36C02730F90E0001380F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF1B36A62730F8EA0001380F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CF1B36A72730F8EA0001380F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CF1B36A92730F8EA0001380F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = FV6LSDGT2M;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.magenative.woocommerceApp.paytm;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF1B36AA2730F8EA0001380F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = FV6LSDGT2M;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.magenative.woocommerceApp.paytm;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CF1B36AC2730F8EA0001380F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FV6LSDGT2M;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.magenative.woocommerceApp.paytmTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF1B36AD2730F8EA0001380F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FV6LSDGT2M;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.magenative.woocommerceApp.paytmTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CF1B36C42730F90E0001380F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FV6LSDGT2M;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = paytmIntegration/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.magenative.woocommerceApp.paytmIntegration;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF1B36C52730F90E0001380F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FV6LSDGT2M;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = paytmIntegration/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.magenative.woocommerceApp.paytmIntegration;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF1B36902730F8EA0001380F /* Build configuration list for PBXProject "paytm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF1B36A62730F8EA0001380F /* Debug */,
+				CF1B36A72730F8EA0001380F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF1B36A82730F8EA0001380F /* Build configuration list for PBXNativeTarget "paytm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF1B36A92730F8EA0001380F /* Debug */,
+				CF1B36AA2730F8EA0001380F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF1B36AB2730F8EA0001380F /* Build configuration list for PBXNativeTarget "paytmTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF1B36AC2730F8EA0001380F /* Debug */,
+				CF1B36AD2730F8EA0001380F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF1B36C32730F90E0001380F /* Build configuration list for PBXNativeTarget "paytmIntegration" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF1B36C42730F90E0001380F /* Debug */,
+				CF1B36C52730F90E0001380F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF1B368D2730F8EA0001380F /* Project object */;
+}
